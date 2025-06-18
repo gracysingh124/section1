@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <style>
+      *{
+        font-family: roboto;
+      }
+          .card{
+            border: 1px solid black;
+            padding: 25px;
+            width: 20%;
+            border-radius: 10px;
+            box-shadow: 10px 10px 4px 0px gray;
+          }
+          body{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+          }
+          .form-title{
+            text-align: center;
+            font-size: 30px;
+            color: black;
+          }
+          .text-input{
+            width: 100%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid gray;
+          }
+          label{
+            display: block;
+            margin-bottom: 2px;
+            font-size:20px;
+            color: black;
+          }.register-btn{
+            width: 100%;
+            padding:10px;
+            border-radius: 10px;
+            background-color: rgb(52, 52, 255);
+            color: aliceblue;
+          }
+          .link-login{
+            color: rgb(85, 85, 247);
+          }
+
+    </style>
+
+</head>
+<body>
+    <div class="card">
+        <h2 class="form-title">Sign Up </h2>
+        <form>
+             <label>Name</label>
+             <input  class="text-input"type="text">
+             <br><br>
+
+             <label>Number</label>
+             <input class="text-input" type="numbers">
+             <br><br>
+
+             <label>Email</label>
+             <input class="text-input" type="email">
+             <br><br>
+             <label>Password</label>
+             <input class="text-input" type="password">
+             <br><br>
+
+             <button class="register-btn">register</button>
+             <a href="link-login.html" class="link-login">If already registered then log in</a>
+
+
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
