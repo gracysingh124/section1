@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+    rel="stylesheet" />
+<style>
+    * {
+        font-family: roboto;
+    }
+
+    .card {
+        border: 1px solid whitesmoke;
+        padding: 30px;
+        width: 23%;
+        border-radius: 15px;
+        /* box-shadow: 2px 2px 2px 0px whitesmoke; */
+        background-color: aliceblue;
+        box-shadow: 20px 20px 10px 0px rgb(170, 170, 246);
+
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+
+        background-image: linear-gradient(0deg, rgb(193, 193, 255));
+
+    }
+
+    .title {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+    }
+
+    .title2 {
+        text-align: left;
+        font-size: 20px;
+        color: black;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 15px;
+
+    }
+
+    .check {
+        /* display: block;  */
+
+        margin: 2px;
+        font-size: 15px;
+
+    }
+
+    .input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid gray;
+
+    }
+
+    .DOWNLODE-btn {
+        width: 100%;
+        border-radius: 5px;
+        padding: 8px;
+        background-color: pink;
+        color: black;
+        text-align: center;
+        border-color: palevioletred;
+        margin-bottom: 10px;
+
+
+
+    }
+
+    .input2 {
+
+        border: black;
+        transform: scale(1.6);
+
+    }
+</style>
+
+<body>
+    <div class="card">
+        <h2 class="title">Try it now! </h2>
+        <h3 class="title2"> Free Trial, No obligation</h3>
+        <form>
+            <label> Work Email Address </label>
+            <input class="input" type="email">
+            <br>
+
+            <div style=" display: flex; align-items: center; margin-top: 20px;">
+                <input class="input2" type="checkbox" name="terms" id="terms">
+                <label class="check" for="terms"> I Accept Terms and Condition</label>
+            </div>
+
+
+            <div  style="margin:  5px 0px; display: flex; align-items: center;">
+                <input class="input2" type="checkbox" name="terms">
+                <labe2 class="check">Subscribe to our newsletter</labe2>
+            </div>
+
+             <div  style="margin: 5px 0; display: flex; align-items: center;">
+            <input class="input2" type="checkbox" name="terms">
+            <labe2 class="check">Subscribeto our tribal anboarding emails. </labe2>
+            </div>
+            <br>
+            <button class="DOWNLODE-btn">DOWNLODE NOW</button>
+
+
+
+
+
+
+        </form>
+
+
+
+    </div>
+
+</body>
+
+</html>

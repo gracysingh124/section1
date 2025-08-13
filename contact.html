@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    
+    <style>
+        *{
+            font-family: roboto;
+        }
+           .card{
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            width: 80%;
+            margin: auto;
+            margin-top: 10vh;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 3px 3px 5px 0px gray;
+
+           }
+           .Contact-info{
+            /* border: 2px solid yellow; */
+            padding: 30px;
+            background-color: blue;
+            color: aliceblue;
+            
+
+           }
+           .contact-form{
+            /* border: 2px solid green; */
+            padding: 20px;
+
+           }
+           .text-input{
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+
+           }
+           .social-link{
+            display: flex;
+            gap: 10px;
+          
+           }
+           .social-link p{
+              margin :0;
+           }
+           .Submit-btn{
+            background-color: blueviolet;
+            color: white;
+            margin-left: auto;
+            display: block;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+           }
+
+
+    </style>
+</head>
+<body>
+    <div class="card">
+
+        <div class="Contact-info">
+            <h2>Content Us Here</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit perferendis sequi consectetur quibusdam dolor optio sunt delectus magni illum eveniet nobis quidem illo facilis, dicta voluptatibus ipsum officiis! Laudantium, sit.</p>
+            <p>Call Us On: +91 9983759742</p>
+            <p>Timing: 10AM - 7PM</p>
+
+            <h4>follow us on</h4>
+             <div class="social-link">
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>Linkedin</p>
+        </div>
+        </div>
+       
+        <div class="contact-form">
+            
+            <h2>Contact Form</h2>
+            <form>
+                <label for="">Name</label>
+                <input class="text-input" type="text">
+
+                <label for="">Email Address</label>
+                <input class="text-input" type=" text">
+
+                <label for="">Phone No.</label>
+                <input class="text-input" type="text">
+
+                <label for="">Phone No.</label>
+                <textarea class="text-input" rows="5"></textarea>
+                <button class="Submit-btn">Submit Details</button>
+            </form>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

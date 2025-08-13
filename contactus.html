@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+ 
+    <style>
+        *{
+            font-family: roboto;
+        }
+            .card{
+                border: 1px solid black;
+                border-radius: 15px;
+                padding: 25px;
+                width: 20%;
+                box-shadow: 8px 8px 4px 0px gray;
+            }label{
+                display: block;
+                margin-bottom: 2px;
+                font-size: 20px;
+                color: black;
+            }
+            .text-input{
+                width: 100%;
+                padding: 8px;
+                border-radius: 10px;
+                border: 1px solid gray;
+            }.form-title{
+                text-align: center;
+                font-size: 30px;
+                color: black;
+            }
+            .send-btn{
+                width: 100%;
+                border-radius: 10px;
+                padding: 10px;
+                background-color: blue;
+                color: aliceblue;
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            
+    </style>
+    </head>
+    <body>
+         <div class="card">
+        <h2 class="form-title">Contact Us </h2>
+    <form>
+             <label>Name</label>
+             <input  class="text-input"type="text">
+             <br><br>
+
+             <label>Email</label>
+             <input class="text-input" type="email">
+             <br><br>
+             <label>Message</label>
+             <input class="text-input" type="text">
+             <br><br>
+
+             <button class="send-btn">Send</button>
+             
+        </div>
+    </form>
+    
+</body>
+</html>

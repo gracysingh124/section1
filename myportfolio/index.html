@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gracy Web Developer</title>
+  <meta name="description" content="Jane Doe's personal portfolio - frontend web developer, UI/UX, React projects." />
+
+  <!-- Font from Google Fonts (Poppins or Montserrat) -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="topnav">
+    <div class="logo">Gracy Singh </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </nav>
+  </header>
+
+  <section id="hero" class="section hero">
+    <div class="content">
+      <h1>Hello, I'm <span>Gracy</span>.</h1>
+      <p>I build modern, responsive websites using HTML, CSS & JavaScript.</p>
+      <a href="#projects" class="btn">View Projects →</a>
+    </div>
+    <img src="assets/hero-photo.jpg" alt="Jane Doe portrait" class="hero-img" />
+  </section>
+
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>I'm a Frontend Developer based in India 🇮🇳.</p>
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>Selected Projects</h2>
+    <div class="grid">
+      <div class="project-card">
+        <img src="assets/project1.png" alt="Project 1 screenshot">
+        <div class="card-info">
+          <h3>My Weather App</h3>
+          <p>React, OpenWeather API, responsive UI</p>
+          <a href="https://github.com/jane/weather-app" target="_blank">Source →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="assets/project2.png" alt="Project 2 screenshot">
+        <div class="card-info">
+          <h3>Portfolio Landing</h3>
+          <p>HTML, CSS Grid, animations</p>
+          <a href="https://github.com/jane/portfolio-landing" target="_blank">Source →</a>
+        </div>
+      </div>
+      <!-- Add more project cards as needed -->
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to work together or just want to say hi, feel free to reach out:</p>
+    <a href="mailto:jane.doe@example.com" class="btn btn-primary">Email Me</a>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Jane Doe • Based in Lucknow, India</p>
+    <div class="social-links">
+      <a href="https://github.com/jane" aria-label="GitHub">
+        <img src="assets/github.svg" alt="GitHub icon">
+      </a>
+      <a href="https://linkedin.com/in/jane" aria-label="LinkedIn">
+        <img src="assets/linkedin.svg" alt="LinkedIn icon">
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
